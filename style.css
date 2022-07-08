@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: poppins;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(163, 163, 163);
+    background: #ecf0f3;
+}
+.login{
+    height: 500px;
+    width: 300px;
+    background: #ecf0f3;
+    
+    border-radius: 30px;
+    padding: 50px 35px 35px 35px;
+    box-shadow:  10px 10px 15px, -10px -10px 15px white;
+    
+}
+.logo{
+    background: url("paikarihaat.PNG");
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;   
+    border-radius: 50%;
+    box-shadow:  10px 10px 15px #cbced1, -10px -10px 15px rgb(255, 255, 255);
+}
+.title{
+     text-align: center;
+     color: black;
+     font-weight: 700;
+     padding-top: 15px;
+     letter-spacing: 1.2PX ;
+}
+.sub-title{
+    text-align: center;
+     color: black;
+     padding-top: 7px;
+     letter-spacing: 2px;
+}
+.field{
+    width: 100%;
+    padding: 45px 5px 5px 5px;
+}
+.field input{
+    border:none;
+    background: none;
+    outline: none;
+    color:#555;
+    padding: 20px 10px 20px 5px;
+}
+.username, .password{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow:  inset 6px 6px 10px #cbced1, inset -6px -6px 10px rgb(255, 255, 255);
+
+}
+.field svg{
+    height: auto;
+    margin-left: 10px;
+}
+.btn{
+    outline: none;
+    font-family: poppins;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(77, 77, 233);
+    color: white;
+    box-shadow: 3px 3px 8px , -3px -3px 14px rgb(255, 255, 255);
+
+}
+.btn:hover{
+    background: rgb(52, 52, 196);
+    transition: 0.2s;
+}
+.btn:active{
+    background: rgb(48, 48, 167);
+}
+.link{
+    padding: 15px;
+
+}
+.link a{
+    text-decoration: none;
+}
+a{
+    color:gray;
+    font-size: 14px;
+}
+
+
